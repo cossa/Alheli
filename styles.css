@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+ul{
+    list-style: none;
+    padding:0
+}
+
+a{
+    text-decoration: none;
+}
+li, .child{
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 6px;
+    padding: 8px;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+/*Challenge 2*/
+.challenge-2 {
+    display: flex;
+    gap: 6px;
+   
+}
+
+.challenge-2 li {
+    flex:1;
+}
+
+/*Challenge 3*/
+.parent{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+/*Challenge 4*/
+.challenge-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+li {
+}
