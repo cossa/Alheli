@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #f3f2f9;
+  }
+  header {
+    background: #9c83ff;
+    height: 110px;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+  section {
+    zoom: 0.8;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    border: grey 1px solid;
+    flex: 1;
+  }
+  
+  article:nth-of-type(3) {
+    flex: 2;
+  }
+
+  button {
+    font-size: 18px;
+    width: 10%;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+  }
