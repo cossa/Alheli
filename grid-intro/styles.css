@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+  }
+.child {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(229, 245, 237);
+    border: 2px solid rgb(51, 85, 99);
+  }
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(50px, auto);
+    gap: 20px;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+header, footer{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(224, 207, 240);
+    color: white;
+    text-align: center;
+}
+
+.sidebar{
+    border-right: 1px dotted rgb(255, 254, 202);
+    grid-column: 1/2;
+}
+
+header{
+    grid-column: 1/3;
+    grid-row: 1;
+
+}
+footer{
+    grid-column: 1/3;
+    grid-row: 3;
+}
+.main{
+    grid-column: 2/3;
+    grid-row: 2;
+}

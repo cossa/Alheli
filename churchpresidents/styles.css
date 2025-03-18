@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.container{
+    display: flex;
+    padding-top: 16px;
+}
+
+.card{
+    width: 600px;
+    border: solid rgb(124, 172, 168);
+    padding: 8px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.card img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 8px;
+    object-position: 40% 50%;
+
+}
+
+.row{
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+
+.chip{
+    background-color: rgb(200, 230, 230);
+    padding:6px;
+    border-radius: 1000px;
+}
+
+.card h2, .card p{
+    margin:0;
+}
