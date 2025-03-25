@@ -1,0 +1,35 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6c8892;
+}
+
+.header{
+    background-color: #e5e5e5;
+    padding: 15px;
+    text-align: center;
+}
+
+a{
+    background-color: #e5e5e5;
+    color: #000000; 
+    padding:8px;
+}
+
+.sidebar, .footer{
+    background-color: #e5e5e5;
+    padding:15px;
+    text-align: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 7px 0;
+    gap: 7px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}

@@ -1,0 +1,9 @@
+@media only screen (min-width: 1200px){
+    nav{
+        display:flex;
+    }
+
+    a{
+        flex:1;
+    }
+}
