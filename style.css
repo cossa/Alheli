@@ -22,3 +22,20 @@ h2{
 p{
   font-weight:300
 }
+
+.super_billy{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.billy a{
+  text-decoration: none;
+  color: #486d52;
+  border: 2px solid rgb(150, 187, 176);
+  background-color: white;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 5px;
+  display: flex;
+}
