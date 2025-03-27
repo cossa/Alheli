@@ -12,7 +12,12 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    transition: all linear 0.5s;
 
+}
+.super:hover{
+    background-color:rgb(138, 83, 46) ;
+    color: white;
 }
 
 .super img{
