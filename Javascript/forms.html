@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>HTML Forms</title>
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body{
+            background-color: rgb(239, 250, 215);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+
+        .input-area{
+            margin-bottom: 1rem;
+        }
+
+        .button{
+            background-color: rgb(62, 85, 51);
+            color: antiquewhite;
+        }
+        
+    </style>
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <form>
+        <label for = "fname">First name</label>
+        <input class="input-area" type = "text" name ="fname" required>
+
+        <label for = "lname">Last name</label>
+        <input class="input-area" type = "text" name = "lname" required>
+
+        <label for = "email">Email</label>
+        <input class="input-area" type = "email" name = "email" required>
+
+        <label for = "birth">Birthdate</label>
+        <input class="input-area" type = "date" name = "birth" required>
+
+        <label for = "age">Age</label>
+        <input class="input-area" type = "number" name = "age" required>
+
+        <label for = "country">Select your country:</label>
+        <select name="country" class="input-area">
+            <option>Mexico</option>
+            <option>United States</option>
+            <option>Colombian</option>
+            <option>Spain</option>
+        </select>
+
+        <label for = "gender">Gender:</label>
+        <div>
+           
+        <input class="input-area" type = "radio" name = "gender" value="Woman" required>
+        <label for="Woman">Woman</label>
+            
+        <input class="input-area" type = "radio" name = "gender" value="Men" required>
+        <label for="Men">Men</label>
+           
+        </div>
+
+        <label for = "color">Choose your favorite color:</label>
+        <input class="input-area" type = "color" name = "color" required>
+
+        <label for = "npassword">Enter your new password</label>
+        <input class="input-area" type = "password" name = "npassword" required>
+
+        <input type="submit" class="button">
+
+
+    </form>
+</body>
+</html>
